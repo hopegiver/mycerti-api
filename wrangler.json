@@ -1,0 +1,33 @@
+{
+  "name": "mycerti-api",
+  "main": "src/index.js",
+  "compatibility_date": "2025-07-18",
+  "upload_source_maps": true,
+  "vars": {
+    "JWT_USER_SECRET": "malgnsoft-user",
+    "JWT_ADMIN_SECRET": "malgnsoft-admin",
+    "JWT_SITE_SECRET": "malgnsoft-site"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "34e1b7e4-cb5b-45aa-be6a-cf7def2b51be",
+      "database_name": "mycerti-db"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MY_BUCKET",
+      "bucket_name": "mycerti-data"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "DOMAIN_MAPPING",
+      "id": "02f2a134cbd94fe1820b59c2c586b069"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

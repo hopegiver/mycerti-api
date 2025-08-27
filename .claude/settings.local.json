@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(G:\\workspace\\homebuilder-api/**)",
+      "Read(G:\\workspace\\homebuilder-api/**)",
+      "Read(G:\\workspace\\homebuilder-api/**)",
+      "Read(G:\\workspace\\homebuilder-api\\src/**)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "G:\\workspace\\homebuilder-api"
+    ]
+  }
+}
